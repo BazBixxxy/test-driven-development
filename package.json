@@ -1,0 +1,21 @@
+{
+  "name": "test-driven-development",
+  "version": "1.0.0",
+  "description": "in this repo, we explore test driven development using `jest`",
+  "main": "analyze_array.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
